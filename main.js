@@ -1,6 +1,8 @@
-song=""
+songh=""
+songp=""
 function preload(){
-song=loadSound("music.mp3")
+songh=loadSound("music.mp3")
+songp=loadSound("music2.mp3")
 }
 function setup(){
 canvas=createCanvas(500,500)
